@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Display">
+      <UniqueIdentifier>{c64f4eab-1595-425f-84d4-28f7b982457d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Display">
+      <UniqueIdentifier>{70d403ca-a01e-4a84-9eae-21a0d8afaa9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{a4b51647-272e-4169-a6b8-eb0caed8691b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{0c7bd25b-150c-45ef-a788-87f28a1cc80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendernig">
+      <UniqueIdentifier>{0b805df7-bd48-4e8a-a792-b645efa14bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{d1362264-04ec-44ab-a742-2d2919f22f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendernig\Base">
+      <UniqueIdentifier>{c4bc47ae-8072-4967-afe8-fd71300e0cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendernig\Management">
+      <UniqueIdentifier>{e02e4973-b9b6-4572-8f50-f9ca0945c746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Base">
+      <UniqueIdentifier>{adcd2127-3532-4903-8af3-b596090eb702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Management">
+      <UniqueIdentifier>{a16d3a17-7cf7-4831-9a02-ad4a6c249830}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DisplayFacade.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLContext.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Rendering\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_loader.cpp">
+      <Filter>Source Files\Rendering\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Rendering\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Rendering\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.c">
+      <Filter>Source Files\Rendering\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Source Files\Rendering\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformManager.cpp">
+      <Filter>Source Files\Rendering\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="UBOManager.cpp">
+      <Filter>Source Files\Rendering\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLManager.cpp">
+      <Filter>Source Files\Rendering\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DisplayFacade.h">
+      <Filter>Header Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLContext.h">
+      <Filter>Header Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Rendernig\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Rendernig\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Rendernig\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\Rendernig\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Rendernig\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Header Files\Rendernig\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Header Files\Rendernig\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformManager.h">
+      <Filter>Header Files\Rendernig\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="UBOManager.h">
+      <Filter>Header Files\Rendernig\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Rendernig\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLManager.h">
+      <Filter>Header Files\Rendernig\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\res\monkey3.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="..\res\Ball.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="..\res\Rock.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="..\res\spaceship.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\res\ADS.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\ADS.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UI.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UI.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\res\Pixel.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
