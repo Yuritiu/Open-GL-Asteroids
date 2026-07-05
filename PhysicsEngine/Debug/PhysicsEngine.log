@@ -1,2 +1,5 @@
-﻿  PhysicsEngine.cpp
-  PhysicsEngine.vcxproj -> B:\GCU work\Year 4\Games Programming 3\GP3\Debug\PhysicsEngine.dll
+﻿  dllmain.cpp
+  PhysicsEngine.cpp
+  Generating Code...
+     Creating library B:\GCU work\Year 4\Games Programming 3\C++ Open GL Asteroids\Debug\PhysicsEngine.lib and object B:\GCU work\Year 4\Games Programming 3\C++ Open GL Asteroids\Debug\PhysicsEngine.exp
+  PhysicsEngine.vcxproj -> B:\GCU work\Year 4\Games Programming 3\C++ Open GL Asteroids\Debug\PhysicsEngine.dll

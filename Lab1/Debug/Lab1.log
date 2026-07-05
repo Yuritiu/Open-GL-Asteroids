@@ -1,3 +1,23 @@
-﻿  MainGame.cpp
-B:\GCU work\Year 4\Games Programming 3\GP3\Lab1\MainGame.cpp(980,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Lab1.vcxproj -> B:\GCU work\Year 4\Games Programming 3\GP3\Debug\Labs.exe
+﻿  CollisionSystem.cpp
+  DisplayFacade.cpp
+B:\GCU work\Year 4\Games Programming 3\C++ Open GL Asteroids\Lab1\DisplayFacade.cpp(5,142): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+B:\GCU work\Year 4\Games Programming 3\C++ Open GL Asteroids\Lab1\DisplayFacade.cpp(5,165): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  DLLManager.cpp
+  main.cpp
+  MainGame.cpp
+B:\GCU work\Year 4\Games Programming 3\C++ Open GL Asteroids\Lab1\MainGame.cpp(980,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+  obj_loader.cpp
+B:\GCU work\Year 4\Games Programming 3\C++ Open GL Asteroids\Lab1\obj_loader.cpp(378,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  OpenGLContext.cpp
+  ParticleSystem.cpp
+  Shader.cpp
+  ShaderManager.cpp
+  Texture.cpp
+  TransformManager.cpp
+  UBOManager.cpp
+  UISystem.cpp
+  Window.cpp
+  Generating Code...
+  stb_image.c
+  Lab1.vcxproj -> B:\GCU work\Year 4\Games Programming 3\C++ Open GL Asteroids\Debug\Labs.exe
